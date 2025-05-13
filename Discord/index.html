@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Discord</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      href="data:image/png;base64,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"
+    />
+    <script
+      src="https://kit.fontawesome.com/5168dd460c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="discord">
+      <div class="first_section">
+        <p>Discord</p>
+        <i class="fa-brands fa-discord"></i>
+        <hr />
+        <i class="fa-brands fa-discord"></i>
+        <i class="fa-brands fa-discord"></i>
+        <i class="fa-solid fa-circle-down"></i>
+        <i class="fa-solid fa-plus"></i>
+        <i class="fa-brands fa-cc-discover"></i>
+      </div>
+      <div class="second_section">
+        <input type="text" placeholder="Find or start a conversation" />
+
+        <p class="second_section_contents_friends">
+          <i class="fa-solid fa-user"></i>Friends
+        </p>
+
+        <p class="second_section_contents">
+          <i class="fa-solid fa-fire"></i>Nitro
+        </p>
+
+        <p class="second_section_contents">
+          <i class="fa-solid fa-shop"></i>Shop
+        </p>
+        <div class="direct">
+          <span class="direct_message">DIRECT MESSAGES</span>
+          <i class="fa-solid fa-plus"></i>
+        </div>
+        <p class="discord_officials">
+          <i class="fa-brands fa-discord"></i> Discord OFFICIALS
+        </p>
+      </div>
+      <div class="third-sec">
+        <nav class="third-nav">
+          <div class="third-nav-left">
+            <a href="#"> <i class="fa-solid fa-user"></i>Friends</a>
+            <a href="#">online</a>
+            <a href="#">All</a>
+            <a href="#">Pending</a>
+            <a href="#" class="add-friends">Add Friends</a>
+          </div>
+          <div class="third-nav-right">
+            <a href="#"><i class="fa-solid fa-message"></i></a>
+            <a href="#"><i class="fa-solid fa-inbox"></i></a>
+            <a href="#"><i class="fa-solid fa-circle-info"></i></a>
+          </div>
+        </nav>
+        <div class="third-sec-content">
+          <div class="third-left">
+            <img src="Screenshot 2025-03-08 112252.png" alt="">
+          </div>
+          <div class="third-right">
+            <h3>Active Now</h3>
+            <h4>It's quite for now...</h4>
+            <p>
+              When a friends starts an activity-like playing a game or hanging out on voice-we will show it here!
+            </p>
+          </div>
+        </div>
+      </div>
+  </body>
+</html>

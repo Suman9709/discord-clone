@@ -1,0 +1,212 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.discord{
+    display: flex;
+    border: 1px solid black;
+    height: 100vh;
+}
+.first_section {
+    /* border: 1px solid black; */
+    width: 5vw;
+    background-color: rgb(29, 30, 33);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.first_section hr{
+    width: 50%;
+}
+.first_section p{
+   font-weight: bolder;
+   font-size: 12px;
+   color: rgb(105, 104, 104);
+}
+.first_section .fa-discord{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(75, 75, 238);
+    font-size: 30px;
+    height: 40px;
+    width: 70%;
+    border-radius: 10px;
+    margin: 10px 0px 10px 0px;
+}
+.first_section .fa-circle-down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    font-size: 25px;
+    width: 70%;
+    color: white;
+    background-color:rgb(71, 70, 70);
+    border-radius: 10px;
+    margin: 10px 0px 10px 0px;
+}
+.first_section .fa-plus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    font-size: 25px;
+    width: 70%;
+    color: white;
+    background-color: rgb(71, 70, 70);
+    border-radius: 10px;
+    margin: 10px 0px 10px 0px;
+}
+.first_section .fa-cc-discover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    font-size: 25px;
+    width: 70%;
+    color: white;
+    background-color: rgb(71, 70, 70);
+    border-radius: 10px;
+    margin: 10px 0px 10px 0px;
+}
+.second_section {
+    width: 20vw;
+    background-color: #2b2d31;
+    overflow: hidden;
+    color: rgb(190, 195, 195);
+} 
+.second_section input {
+    margin: 10px;
+    width: 77%;
+    background-color: rgb(29, 30, 33); 
+    border-radius:5px ;
+    padding: 2px 20px 2px 20px;
+    border: none;
+    height: 20px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+.second_section input::placeholder{
+    color: rgb(197, 196, 196);
+}
+.second_section_contents {
+    margin: 5px 5px 10px 5px;
+    font-size: 18px;
+    border-radius: 5px;
+    color: rgb(190, 195, 195);
+}
+.second_section_contents_friends{
+    margin: 5px 5px 10px 5px;
+    background-color: rgb(65, 67, 74);
+    color: rgb(190, 195, 195);
+    height:30px;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.second_section_contents_friends .fa-user{
+    margin-right: 10px;
+    margin-top: 4px;
+    margin-left: 5px;
+}
+.second_section_contents .fa-fire{
+    margin: 10px;
+}
+.second_section_contents .fa-shop{
+    margin: 10px;
+}
+.direct{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px 10px 0px;
+    padding: 5px ;
+}
+.direct_message {
+    font-size: small;
+}
+.discord_officials {
+    display: flex;
+    justify-content: space-around;
+}
+.discord_officials .fa-discord{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(75, 75, 238);
+    font-size: 20px;
+    /* height: 40px; */
+    width: 10%;
+    border-radius: 100%;
+    margin: 10px 0px 10px 0px;
+}
+.third-sec {
+    width: 75vw;
+    background-color: #313338;
+}
+.third-nav {
+    display: flex;
+    justify-content: space-between;
+    height: 7vh;
+    align-items: center;
+    box-shadow:1px 1px 1px 1px rgba(0, 0, 0, 0.1) ;
+}
+.third-nav-left a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-weight: bold;
+    padding:4px 8px 4px 8px;
+    border-radius: 5px;
+}
+.third-nav-left :hover {
+    background-color: #2b2d31;
+}
+.third-nav-left .fa-user{
+    margin-right: 10px;
+    color: rgb(90, 90, 92);
+}
+.third-nav-left .add-friends {
+    background-color: rgb(47, 180, 47);
+    padding: 5px;
+    border-radius: 10px;
+}
+.third-nav-right a{
+    color: white;
+    margin: 10px;
+}
+.third-sec-content {
+    display: flex;
+}
+.third-left {
+    width: 75%;
+    height: 92vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.third-left img {
+   width: 70%;
+}
+.third-right {
+    width: 25%;
+    text-align: center;
+    color: white;
+    border: 1px solid #313338;
+    border-left-color: rgb(76, 77, 78);
+}
+.third-right h3 {
+    text-align: left;
+    margin: 15px;
+}
+.third-right h4{
+   font-size: 14px;
+   margin-top: 25px;
+   margin-bottom:5px ;
+   color: rgb(196, 198, 199);
+}
+.third-right p{
+    font-size: 14px;
+    color: rgb(139, 142, 145);
+}
